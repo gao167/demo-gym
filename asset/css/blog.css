@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    width: 395px;
+    height: 430px;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+    color:#6d6c6c;
+    letter-spacing: 0.04em;
+    line-height: 24px;
+    font-size: 13px;
+}
+.blog .anh{
+    width: 395px;  
+}
+.blog .anh img{
+    width: 364px;
+    height: 230px;
+}
+.blog .thongtin{
+    display: flex;
+    flex-direction: column;
+}
+
+.blog .thongtin .tieude h3{
+    line-height: 24px;
+    font-size: 21px;
+    letter-spacing: 1.2px;
+    color: #282f3d;
+    font-weight: 700;
+    margin: 39px 0 8px;
+}
+.blog .thongtin .chucnang{
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.blog .thongtin .chucnang span{
+    margin-right: 20px;
+}
+.blog .thongtin .baiviet{
+    flex-grow: 1;
+}

@@ -1,0 +1,256 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-size: 13px;
+    letter-spacing: .04em;
+    line-height: 24px;
+    color: #6d6c6c;
+    font-family: 'Open Sans',sans-serif;
+}
+.wrapper{
+    background-image: url('/asset/img/sh2.jpg');
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    overflow: hidden;
+}
+.wrapper .head{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 56px;
+    max-width: 1120px;
+    margin: 20px 50px;
+}
+.wrapper .head .logo{
+    height: 54px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+}
+.wrapper .head .logo img{
+    width: 110px;
+    height: 34px;
+}
+.wrapper .head .menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    height:  56px;
+    align-items: center;
+}
+.wrapper .head .menu ul li{
+    margin: 10px 20px;
+    transition:  all 0.4s ease;
+}
+.wrapper .head .menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 7px 0;
+}
+.wrapper .head .menu ul li:hover{
+    border-bottom: 2px solid #fff;
+}
+.wrapper .tit{
+    height: 337px;
+    display: flex;
+    align-items: center;
+    max-width: 1120px;
+    margin: 0 50px;
+}
+.wrapper .tit h1{
+    font-size: 55px;
+    color: #fff;
+    letter-spacing: 1.3px;
+    line-height: 57px;
+    text-transform: uppercase;
+}
+/* style component about trainer */
+.container{
+    display: grid;
+}
+.container .about{
+    max-width: 1120px;
+    margin: 100px 50px;
+}
+.container .danhmuc{
+    display: flex;
+    justify-content: center;
+    max-width: 1120px;
+    margin: 100px 50px;
+}
+.container .danhmuc .tungmuc{
+    width: 25%;
+    text-align: center;
+}
+.container .danhmuc .tungmuc h3{
+    font-size: 39px;
+    line-height: 60px;
+    letter-spacing: 1.9px;
+    font-weight: 600;
+    color: #282f3d;
+}
+.container .danhmuc .tungmuc p{
+    font-family: Montserrat,sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.9px;
+}
+.sol{
+    background-image: url('/asset/img/img291.jpg');
+    background-size: cover;
+    height: 509px;
+    margin-bottom: 100px;
+    background-attachment: fixed;
+}
+.sol .phumo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: rgb(62,61,62);
+    background: linear-gradient(0deg, rgba(62,61,62,0.8379726890756303) 0%, rgba(105,77,87,0) 100%, rgba(27,25,27,0) 100%);
+}
+.sol .phumo h3{
+    color: #fff;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: 1.2px;
+    font-family: Montserrat,sans-serif;
+    margin-bottom: 30px;
+}
+.sol .phumo .but a{
+    display: inline-block;
+    padding: 7px 20px 8px;
+    width: auto;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #e8e8e8;
+    border: 2px solid #e8e8e8;
+    letter-spacing: 1.8px;
+    color: #000;
+    text-decoration: none;
+}
+.sol .phumo .but a:hover{
+    color: #e8e8e8;
+    background-color: transparent;
+    border: 2px solid #e8e8e8;
+    transition: all 0.4s ease;
+}
+.container .box-pricing ,.container .box-reviews,.container .box-blog,.container .box-contact{
+    max-width: 1120px;
+    margin: 0 50px;
+}
+.container .box-pricing .tieude,.container .box-reviews .tieude,.container .box-blog .tieude1,.container .box-contact .tieude{
+    text-align: center;
+    padding-bottom: 59px;
+}
+.container .box-pricing .tieude h3,.container .box-reviews .tieude h3,.container .box-blog .tieude1 h3,.container .box-contact .tieude h3{
+    font-family: Montserrat,sans-serif;
+    color: #282f3d;
+    font-size: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+.container .box-pricing .tieude h3::after,.container .box-reviews .tieude h3::after,.container .box-blog .tieude1 h3::after,.container .box-contact .tieude h3::after{
+    content: '';
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: silver;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.container .box-pricing .flex-pricing{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.container .box-pricing .flex-pricing .pricing{
+    width: 24%;
+}
+.container .box-reviews .tieude{
+    padding-top: 100px;
+}
+.container .box-reviews .flex-reviews{
+    display: flex;
+    justify-content: space-between;
+}
+.container .box-reviews .flex-reviews .reviews{
+    width: 30%;
+}
+.container .box-blog .tieude1{
+    padding-top: 100px;
+}
+.container .box-blog .flex-blog{
+    display: flex;
+    justify-content: space-between;
+}
+.container .box-blog .flex-blog .blog{
+    width: 28%;
+}
+.container .box-contact .tieude{
+    padding: 100px 0;
+}
+.container .box-contact .flex-contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+input,textarea{
+    font-size: 11px;
+    resize: none;
+    padding: 15px 16px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #e8e8e8;
+    font-family: inherit;
+}
+textarea{
+    overflow: auto;
+    border: 1px solid #e2e2e2;
+    letter-spacing: 1.2px;
+    height: 160px;
+}
+input[type= 'button']{
+    border: 1px solid #282f3d;
+    background-color: #282f3d;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-block;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    width: auto;
+    letter-spacing: 1px;
+    transition: all 0.4s ease;
+}
+input[type= 'button']:hover{
+    border: 1px solid #282f3d;
+    background-color: transparent;
+    color: #282f3d;
+}
+footer{
+    display: grid;
+    margin-top: 100px;
+    border-top: 1px solid #e8e8e8;
+    padding-bottom: 20px;
+}
+footer .ketthuc{
+    display: flex;
+    justify-content: center;
+}
+footer .ketthuc p{
+    color: #000;
+}

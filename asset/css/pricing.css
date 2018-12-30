@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.pricing{
+    font-family: 'Open Sans',sans-serif;
+    color:#6d6c6c;
+    letter-spacing: 0.04em;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.1);
+    width: 266px;
+    height: 490px;
+    margin:  10px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.pricing .ten{
+    background-color: #282f3d;
+    color: #fff;
+    padding: 10px 0;
+}
+.pricing .ten span{
+    font-family: Montserrat,sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+.gia{
+    font-family: Montserrat,sans-serif;
+   
+}
+.gia h3{
+    line-height: 42px;
+    font-size: 40px;
+    letter-spacing: 1.2px;
+    color: #282f3d;
+    font-weight: 700;
+    padding: 34px 0;
+}
+.chitiet{
+    list-style: none;
+    flex-grow: 1;
+}
+.chitiet li{
+    font-size: 14px;
+    margin-top: 26px;
+    line-height: 15px;
+}
+.nut{
+    padding-bottom: 34px;
+    font-family: Montserrat,sans-serif;
+}
+.nut a{
+    letter-spacing: 1.5px;
+    font-size: 13px;
+    padding: 5px 18px;
+    border: 1px solid #282f3d;
+    border-radius: 2em!important;
+    color: #fff;
+    background-color: #282f3d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+}
+.nut a:hover{
+    border: 1px solid #282f3d;
+    background-color: transparent;
+    color: #282f3d;
+    letter-spacing: 1.5px;
+    font-size: 13px;
+    padding: 5px 18px;
+}

@@ -1,0 +1,41 @@
+.reviews{
+    margin: 30px auto;
+    width: 394px;
+    height: 174px;
+    display: flex;
+    box-sizing: border-box;
+}
+.reviews .avt{
+    width: 121px;
+    height: 91px;
+    text-align: center;
+    padding-right: 15px;
+}
+.reviews .avt img{
+    width: 91px;
+    height: 91px;
+    border-radius: 50%;
+}
+.reviews .thongtin{
+    font-family: 'Open Sans',sans-serif;
+    color:#6d6c6c;
+    letter-spacing: 0.04em;
+    line-height: 24px;
+    font-size: 13px;
+}
+.reviews .thongtin .ten h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #282f3d;
+    letter-spacing: inherit;
+}
+.reviews .thongtin .ten h3::after{
+    content: '';
+    height: 1px;
+    background-color: silver;
+    width: 60px;
+    margin-bottom: 5%!important;
+    margin-top: 1.5%!important;
+    display: block;
+}
